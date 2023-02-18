@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "products",
   "info": {
-    "singularName": "article",
-    "pluralName": "articles",
-    "displayName": "Article",
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
     "description": ""
   },
   "options": {
@@ -15,20 +15,16 @@
     "title": {
       "type": "string"
     },
-    "date": {
-      "type": "date"
-    },
     "description": {
-      "type": "text"
-    },
-    "body": {
       "type": "richtext"
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "title"
+    "details": {
+      "type": "richtext"
     },
-    "imageProfile": {
+    "price": {
+      "type": "decimal"
+    },
+    "imageCover": {
       "allowedTypes": [
         "images",
         "files",
@@ -38,7 +34,7 @@
       "type": "media",
       "multiple": false
     },
-    "imagesGallery": {
+    "imageGallery": {
       "allowedTypes": [
         "images",
         "files",
