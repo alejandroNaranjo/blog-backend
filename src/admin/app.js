@@ -1,4 +1,21 @@
+import MyLogo from './extensions/casaKatie_logo.jpg';
+import favicon from './extensions/favicon.ico';
+
 const config = {
+  auth:{
+    logo: MyLogo
+  },
+  menu:{
+    logo: MyLogo
+  },
+  head: {
+    favicon: favicon,
+  },
+  notification:
+  {
+    release: false
+  },
+  tutorials: false,
   locales: [
     // 'ar',
     // 'fr',
